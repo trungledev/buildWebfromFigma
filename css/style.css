@@ -1,0 +1,408 @@
+* {
+  box-sizing: border-box;
+
+}
+body
+{
+margin:0;
+text-align: center;
+font-family: 'DM Sans', sans-serif;
+overflow-x: hidden;
+}
+#top{
+    width: 100%;
+    height: auto;
+    
+}
+#menu a{
+    text-decoration: none;
+    text-transform:uppercase;
+}
+header{
+
+    position: fixed;
+    top:0;
+    left: 0;
+    background: white;
+    z-index: 999;
+}
+#menu {
+    margin: .5em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+#menu ul{
+    display: flex;
+    flex-flow: row wrap; 
+}
+#logo{
+    margin-left: 5%;
+
+}
+.logo{
+    display: inline-block;
+}
+#logo p{
+    margin: 0;
+    position: relative;
+    bottom: .5em;
+    left:.5em;
+    font-weight: bold;
+    font-size:1.75em;
+    letter-spacing: .28em;     
+}
+#iconmenu{
+        margin-right: 5%;
+    }
+#bar ul{
+    margin-right: 2em;
+    max-width: 100%;
+    width: auto;
+    list-style-type: none;
+}
+#bar a{
+    margin: 1.4em;
+    letter-spacing: .16em;
+    color: black;
+    font-weight: 500;
+    font-size: 0.874em
+}
+#login{
+    border: 2px solid #4A4A4A;
+    padding: 1em 3em;
+    border-radius: 300px;
+}
+
+
+#page1_left h1{
+    font-size: 3em;
+    text-align: left;
+    font-family: 'DM Serif Text', serif;
+     width: 200%;
+}
+#page1_left p{
+    text-align: left;
+    font-size: 1.125em;
+    letter-spacing: 0.16px;
+    margin-bottom: 3.7em ;
+    width: 170%;
+    
+}
+#signup{
+    border: 4px solid #EF8094;
+    border-radius: 300px;
+    letter-spacing: 1.92px;
+    font-weight: bold;
+    color: black;
+    padding:  1em 2.7em;    
+}
+section{
+    margin: 10% 2.5em;    
+}
+#page1{
+    display: flex;
+    flex-flow: row nowrap;
+    background: #F5F8FF;
+    
+}
+#page1_left_signup{
+    width: 120%;
+    text-align: left;
+}
+
+
+.head_page{
+   margin: 0;
+   font-size: 3em;
+}
+#page2{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.plan{
+    letter-spacing: .12em;
+    border: 4px solid #C4C4C4;
+    padding: 3em ;
+}
+#plan1{
+    background-image: url(bg_plan1.svg);
+    height: auto; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+     padding: 0 80px; 
+}
+#plan2{
+    background-image: url(bg_plan2.svg);
+    height: auto; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding: 0 80px; 
+}
+.head_plan{
+    font-family: 'DM Serif Text', serif;
+    font-size: 2.25em;
+    margin: 0;
+}
+.monney_plan{
+    
+    margin: .5em;
+    margin-bottom: .8em;
+    font-size:2.75em; 
+}
+.buy{
+    border-radius: 300px;
+    background: #EF8094;
+    padding: 1em;
+    color: white;
+}
+
+
+#page3{
+    margin: 3em 5em;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-column-gap: 2em;
+    
+}
+.head_page3{
+    font-size:2.25em;
+    text-align: left;
+    width:60%;
+}
+.info_page3{
+    margin: 0;
+    font-size:1.125em;
+    text-align: left;
+    width:60%;
+}
+.img_page3{
+    text-align: right;
+}
+#mask2{
+    height: 40em;
+    position: relative;
+    top:-9em;
+    z-index: 18;
+}
+#info_mask2{
+    position: relative;
+    top:-12em;
+    left:8em;
+}
+#tryit{
+    border: 4px solid #EF8094;
+    border-radius: 300px;
+    color: black;
+    padding: .5em 1em;   
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+
+#all_page4{
+    margin-top:2em;
+    background: #F5F8FF;
+}
+#page4{
+    margin: 2em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.info_page4{
+    text-align: left;
+    font-size: 1.625em;
+}
+#follow{
+    background: #EF8094;
+    padding: 1em 1.5em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: .12em;
+    border-radius: 300px;
+    text-decoration: none;
+}
+
+
+footer{
+    text-align: left;
+    background: #EEEEEE;
+}
+#logo_footer{
+    padding-top: 3em;
+    margin-bottom: 2.5em;
+}
+#foot_logo{
+   position: relative;
+    left:7em;
+    
+}
+#social{
+    position: relative;
+    left:65%;
+    
+}
+.head_footer{
+    font-weight: bold;
+    font-size: 1.25em;
+    letter-spacing: .12em;
+    margin-bottom: .5em;
+}
+#footer_link{
+    text-align: left;
+    margin-left: 7em;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-bottom: 3em;
+    border-bottom: 2px inset #C4C4C4; 
+    
+}
+.link_footer ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+.link_footer li{
+    line-height: 1.5;
+}
+.link_footer a{
+    color: black;
+    font-size:.875em;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-decoration: none;
+    
+}
+#terms{
+    text-align: right;
+    padding: 2em 4em;
+    
+}
+#terms a{
+    color: black;
+    text-decoration: none;
+    padding-left: 2.5em;
+    font-weight: 600;
+}
+
+
+@media screen and (min-width: 700px){
+     #iconmenu{
+        display: none;
+    } 
+}
+@media screen and (max-width: 1025px){
+    li a{
+        font-size:.625em; 
+    }
+    .img_page4{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 700px){
+    
+    #bar{
+        display:none;
+    }
+    section{
+        margin: 3em .1em;
+    }
+    #page1{
+        flex-flow: column nowrap;
+        
+    }
+    #page1_left,#box{
+        width: 100%;
+    }
+    #page1_left p,#page1_left h1{
+        width: 100%;
+    }
+    #box{
+        margin-top: 3em;
+    }
+    #top{
+        width: 100%;
+        height: auto;
+    }
+    
+    #page2{
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .head_plan{
+        font-size: 1.875em;
+    }
+    .monney_plan{
+        font-size: 1.875em;
+    }
+    #plan2{
+        padding: 0;
+    }
+    #plan1{
+        padding: 0;
+    }
+    
+    #page3{
+        grid-template-columns: 1fr;
+        margin:3em 3em;
+    }
+    #mask2{
+        position: static;
+        width: 100%;
+    }
+    .img_page3{
+        width: 100%;
+        text-align: center;
+    }
+    .img_mask{
+        width: 100%;
+    }
+    .img_page3{
+        width: 100%;
+    }
+    .head_page3{
+        margin: 0;
+        width: 100%;
+    }
+    .info_page3{
+        margin: 0;
+       width: 100%;
+        
+    }
+    #info_mask2{
+        position:static;
+        
+       
+    }
+    #space{
+        display: none;
+    }
+    
+    #page4{
+        flex-direction: column;   
+    }
+    
+    #footer_link{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #social{
+        display: none;
+    }
+    #foot_logo{
+        left: 2.5em;
+    }
+    #footer_link{
+        margin-left: 2.5em;
+    }
+}
